@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, StyleSheet, View, useColorScheme } from 'react-native';
 import { StatusBar } from 'expo-status-bar'; // automatically switches bar style based on theme!
+import { useFonts } from 'expo-font';
 
 export default function App() {
   const colorScheme = useColorScheme();
